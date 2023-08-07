@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lange="pt-BR">
+    <head>
+        <!--o meta é para arrumar os caracteres-->
+        <meta charset="UTF-8">
+        <!--Aqui é o titulo da pagina -->
+        <title>PLAYERS - DESENVOLVIMENTO DE JOGOS </title>
+        <!--aqui fazemos o link com css-->
+        <link rel="stylesheet" type= "text/CSS" href="CSS/FolhaDeEstilo.css">
+    </head>
+    <body>
+        <!--Criando classes na div-->
+        <div class="container-principal">
+            <!--O header cria uma outra div dentro da div -->
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="IMAGEM/mafia-city-scaled.jpg" alt="logo site">
+                    </a>
+                </div>
+                <nav><!--Criando o Meno -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="banner"><!--Criando a id banner conteudo-->
+                <img src="IMAGEM/mafia-city-scaled.jpg" alt="banner-topo">
+            </section>
+            <div id="openModal" class="modalDialog">
+                <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h1>Tudo sobre o jogo</h1>
+                <p>O jogo e sobre gangues quanto maior sua forca e seu poder maior serão suas vitorias.
+                </p><img src="IMAGEM/logoPopup.png" alt="alto html5">
+                </div>
+            </div>
+            <div id="openModal1" class="modalDialog">
+                <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h1>Tecnologia do Jogo</h1>
+                <p>O jogo foi desenvolvido pela Yotta Games , jogo multi-plataformas on-line.
+                </p><img src="IMAGEM/yotta.jpg" alt="alto html5">
+                </div>
+            </div>
+            <div id="openModal2" class="modalDialog">
+                <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h1>Acessibilidade</h1>
+                <p>IOS , Android , Mobile
+                </p><img src="IMAGEM/androidAplle.jpg" alt="alto html5">
+                </div>
+            </div>    
+            <footer><!--Criando o acesso ao banner-->
+                <div class="footer-text">
+                    <h3>Saiba sobre o jogo</h3>
+                    <p ><a href="#openModal">clique --Aqui</a></p>
+                </div>
+                <div class="footer-text">
+                    <h3>Tecnologia</h3>
+                    <p ><a href="#openModal1">clique --Aqui</a></p>
+                </div>
+                <div class="footer-text">
+                    <h3>Acessebilidade</h3>
+                    <p ><a href="#openModal2">clique --Aqui</a></p>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+
+</html>
